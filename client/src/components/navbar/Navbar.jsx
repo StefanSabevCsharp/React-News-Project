@@ -16,7 +16,8 @@ const navigationItems = [
   { name: 'World', href: '/world' },
   { name: 'Tech', href: '/tech' },
   { name: 'Sport', href: '/sport' },
-  { name: 'Culture', href: '/culture' },
+  { name: 'Business', href: '/business' },
+  { name: 'Entertainment', href: '/entertainment' },
   { name: 'Blog', href: '/blog' },
 ];
 
@@ -76,7 +77,7 @@ export default function Navbar() {
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             {/* Profile dropdown */}
             {/*TO DO: Add registration and login links*/}
-            <Menu as="div" className="relative ml-3">
+            {/* <Menu as="div" className="relative ml-3">
               <div>
                 <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                   <span className="absolute -inset-1.5" />
@@ -108,7 +109,7 @@ export default function Navbar() {
                   </a>
                 </MenuItem>
               </MenuItems>
-            </Menu>
+            </Menu> */}
           </div>
         </div>
       </div>

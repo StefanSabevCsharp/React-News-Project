@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LatestBlogComponent from "./latestBlogElement/LatestBlogElement";
 
 export default function LatestBlogs() {
@@ -8,12 +9,12 @@ export default function LatestBlogs() {
           <h1 className="text-3xl font-bold text-gray-800">
             Latest Blogs
           </h1>
-          <a
-            href="/blogs"
+          <Link
+            to="/blog"
             className="text-blue-600 hover:text-blue-800 font-medium transition-colors duration-300"
           >
             View All
-          </a>
+          </Link>
         </div>
   
         {/* Blog Cards */}

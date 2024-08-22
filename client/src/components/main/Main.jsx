@@ -4,10 +4,11 @@ import LatestNews from "../latestNews/LatestNews";
 
 
 export default function Main() {
+
   return (
     <>
-    <Hero />
-    <LatestBlogs />
+    <Hero  />
+    <LatestBlogs  />
     <LatestNews />
     </>
   );

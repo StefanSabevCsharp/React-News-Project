@@ -2,9 +2,6 @@
 
 A simple React app that pulls the latest news from various categories using the NewsAPI and displays them in a clean, user-friendly interface.
 
-## 🚀 Live Demo
-
-You can check out the live demo of the project here: [news.stefansabev.com](https://news.stefansabev.com)
 
 ## 🛠️ Features
 
